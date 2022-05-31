@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Asifn\AppData\Local\Temp\testng-eclipse-2073592561\testng-customsuite.xml</span>
+                    <span>C:\Users\Asifn\AppData\Local\Temp\testng-eclipse--1407066775\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,22 +104,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testingPurposeOnly.GetTextVsGetAttribute" class="method navigator-link" hash-for-method="enterEmail">enterEmail</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testingPurposeOnly.GetTextVsGetAttribute" class="method navigator-link" hash-for-method="enterPass">enterPass</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testingPurposeOnly.GetTextVsGetAttribute" class="method navigator-link" hash-for-method="submitLogin">submitLogin</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testingPurposeOnly.GetTextVsGetAttribute" class="method navigator-link" hash-for-method="validation">validation</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testingPurposeOnly.hello" class="method navigator-link" hash-for-method="hihello">hihello</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -137,35 +122,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testingPurposeOnly.GetTextVsGetAttribute</span>
+              <span class="class-name">testingPurposeOnly.hello</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="enterEmail">
-                  </a> <!-- enterEmail -->
-                  <span class="method-name">enterEmail</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="enterPass">
-                  </a> <!-- enterPass -->
-                  <span class="method-name">enterPass</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="submitLogin">
-                  </a> <!-- submitLogin -->
-                  <span class="method-name">submitLogin</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validation">
-                  </a> <!-- validation -->
-                  <span class="method-name">validation</span>
+                  <a name="hihello">
+                  </a> <!-- hihello -->
+                  <span class="method-name">hihello</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -173,7 +137,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Asifn\AppData\Local\Temp\testng-eclipse-2073592561\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Asifn\AppData\Local\Temp\testng-eclipse--1407066775\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -182,7 +146,11 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testingPurposeOnly.GetTextVsGetAttribute&quot;/&gt;
+      &lt;class name=&quot;testingPurposeOnly.hello&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;hihello&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testingPurposeOnly.hello --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -222,28 +190,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'submitLogin')
-data.setCell(0, 2, 'testingPurposeOnly.GetTextVsGetAttribute')
-data.setCell(0, 3, 3238);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validation')
-data.setCell(1, 2, 'testingPurposeOnly.GetTextVsGetAttribute')
-data.setCell(1, 3, 1668);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'enterEmail')
-data.setCell(2, 2, 'testingPurposeOnly.GetTextVsGetAttribute')
-data.setCell(2, 3, 354);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'enterPass')
-data.setCell(3, 2, 'testingPurposeOnly.GetTextVsGetAttribute')
-data.setCell(3, 3, 250);
+data.setCell(0, 1, 'hihello')
+data.setCell(0, 2, 'testingPurposeOnly.hello')
+data.setCell(0, 3, 13891);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -269,31 +225,11 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testingPurposeOnly.GetTextVsGetAttribute</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setup</span>
+              <div class="chronological-class-name">testingPurposeOnly.hello</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">hihello</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">enterEmail</span>
-                <span class="method-start">6138 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">enterPass</span>
-                <span class="method-start">6503 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">submitLogin</span>
-                <span class="method-start">6759 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">validation</span>
-                <span class="method-start">10001 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">11673 ms</span>
-              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

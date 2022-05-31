@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testingPurposeOnly.GetTextVsGetAttribute">
+      <class name="testingPurposeOnly.SelectMultipleCheckBoxes14">
         <methods>
-          <include name="tearDown"/>
-          <include name="validation"/>
-          <include name="setup"/>
+          <include name="checkBoxes"/>
         </methods>
-      </class> <!-- testingPurposeOnly.GetTextVsGetAttribute -->
+      </class> <!-- testingPurposeOnly.SelectMultipleCheckBoxes14 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
